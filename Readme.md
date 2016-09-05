@@ -1,3 +1,6 @@
-Created with AHK Studio
+<h1 align="center">
+	<img src="http://i.imgur.com/h3Py62K.png" alt="AHK-Studio">
+</h1>
 
-The Forum thread is located at [Autohotkey.com](https://autohotkey.com/boards/viewtopic.php?f=6&t=300&hilit=ahk+studio)
+### Overview
+AHK Studio is a text editor written in AHK. It is well suited for edting AHK scripts and applications
