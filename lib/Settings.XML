@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<settings>
+	<fonts>
+		<author>joedf</author>
+		<name>PlasticCodeWrap</name>
+		<font background="0x1D160B" bold="0" color="0xF8F8F2" font="Consolas" size="10" style="5" italic="0" strikeout="0" underline="0"></font>
+		<font background="0x36342E" style="33" color="0xECEEEE"></font>
+		<font style="13" color="0x2929EF" background="0x1D160B" bold="0"></font>
+		<font style="3" color="0x39E455" bold="0"></font>
+		<font style="1" color="0xE09A1E" font="Consolas" italic="1" bold="0"></font>
+		<font style="2" color="0x833AFF" font="Consolas" italic="0" bold="0"></font>
+		<font style="4" color="0x00AAFF"></font>
+		<font style="15" background="0x272112" color="0x0080FF"></font>
+		<font style="18" color="0x00AAFF"></font>
+		<font style="19" background="0x272112" color="0x9A93EB" font="Consolas" italic="0"></font>
+		<font style="22" color="0x54B4FF"></font>
+		<font style="21" color="0x0080FF" italic="1"></font>
+		<font style="11" color="0xE09A1E" bold="0" font="Consolas" italic="1" size="10" strikeout="0" underline="0"></font>
+		<font style="17" color="0x00AAFF" italic="1"></font>
+		<font bool="1" code="2068" color="0x3D2E16"></font>
+		<font code="2069" color="0xFF8080"></font>
+		<font code="2098" color="0x583F11"></font>
+		<font style="20" color="0x0000FF" italic="1" background="0x272112"></font>
+		<font style="23" color="0x00AAFF" italic="1"></font>
+		<font style="24" color="0xFF00FF" background="0x272112"></font>
+		<font style="9" color="0x4B9AFB"></font>
+		<font style="8" color="0x00AAFF"></font>
+		<font style="10" color="0x2929EF"></font>
+	</fonts>
+	<autoadd>
+		<key add="&quot;" trigger="&quot;"></key>
+		<key add="'" trigger="'"></key>
+		<key add=")" trigger="("></key>
+		<key add="&gt;" trigger="&lt;"></key>
+		<key add="]" trigger="["></key>
+		<key add="}" trigger="{"></key>
+	</autoadd>
+	<Auto_Indent Full_Auto="1"></Auto_Indent>
+	<options Auto_Advance="1"></options>
+	<toolbar>
+		<bar id="10000">
+			<button file="shell32.dll" func="Open" icon="4" id="10000" state="4" text="Open" vis="1"></button>
+			<button file="shell32.dll" func="Save" icon="8" id="10001" state="4" text="Save" vis="1"></button>
+			<button file="shell32.dll" func="Run" icon="137" id="10003" state="4" text="Run" vis="1"></button>
+			<button file="shell32.dll" func="Check_For_Update" icon="249" id="10004" state="4" text="Check For Update" vis="1"></button>
+			<button file="shell32.dll" func="New_Scintilla_Window" icon="100" id="10005" state="4" text="New Scintilla Window" vis="1"></button>
+			<button file="shell32.dll" func="Remove_Scintilla_Window" icon="271" id="10006" state="4" text="Remove Scintilla Window" vis="1"></button></bar>
+		<bar id="10001">
+			<button file="shell32.dll" func="open_folder" icon="110" id="10000" state="4" text="Open Folder" vis="1"></button>
+			<button file="shell32.dll" func="google_search_selected" icon="135" id="10001" state="4" text="Google Search Selected" vis="1"></button></bar>
+		<bar id="10002">
+			<button file="shell32.dll" func="Debug_Current_Script" icon="22" id="10001" state="4" text="Debug Current Script" vis="0"></button>
+			<button file="shell32.dll" func="Connect" icon="18" id="10000" state="4" text="Connect" vis="1"></button>
+			<button file="shell32.dll" func="ListVars" icon="21" id="10002" state="4" text="List Variables" vis="1"></button>
+			<button file="shell32.dll" func="Run_Program" icon="137" id="10003" state="4" text="Run Program" vis="1"></button>
+			<button file="shell32.dll" func="stop" icon="27" id="10004" state="4" text="Stop" vis="1"></button></bar>
+	</toolbar>
+	<rebar>
+		<band id="10000" vis="1" width="263"></band>
+		<band id="10001" vis="1" width="1345"></band>
+		<band id="10002" vis="0" width="200"></band>
+	</rebar>
+	<gui>
+		<position window="1" max="1">x636 y48 w750 h500</position>
+	</gui>
+	<last>
+		<file>Untitled.ahk</file>
+	</last>
+</settings>
